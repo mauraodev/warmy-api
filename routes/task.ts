@@ -8,12 +8,12 @@ const task = new TaskController();
 
 router.get("/", task.index);
 
-// router.get("/:id", task.find);
+router.get("/:id", task.find);
 
 router.post("/", task.create);
 
-// router.put("/:id", task.update);
+router.put("/:id", task.update);
 
-// router.delete("/:id", task.destroy);
+router.delete("/:id", task.destroy);
 
 export default router;
