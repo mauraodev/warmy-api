@@ -4,22 +4,27 @@ Essa é um API de tarefas para o desafio de back-end od project
 
 # Documentação 
 
-Listagem de tarefas
+## Listagem de tarefas
 
 METHOD: GET
+
 Endpoint: /tasks
 
-Busca uma tarefa especifica
+
+## Busca uma tarefa especifica
 
 METHOD: GET
+
 Endpoint: /tasks/:taskId
 
-Exclusão de task
+## Exclusão de task
 METHOD: DELETE
+
 Endpoint: /tasks/:taskId
 
-Cadastro de um tarefa
+## Cadastro de um tarefa
 METHOD: POST
+
 Endpot /tasks
 
 Request
@@ -30,8 +35,9 @@ Request
 }
 ```
 
-Atualização de um tarefa
+## Atualização de um tarefa
 METHOD: PUT
+
 Endpot /tasks/taskId
 
 Request
